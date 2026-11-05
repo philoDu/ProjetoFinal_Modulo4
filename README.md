@@ -127,4 +127,4 @@ Por se tratar de um projeto acadêmico sem *backend*:
 
 **Felipe Duarte** — [github.com/philoDu](https://github.com/philoDu)
 
-Projeto desenvolvido para o curso técnico do Senac.
+Projeto desenvolvido no Módulo 4 do Curso Programador Web EaD - 2º/2026 - Noturno, da Escola Técnica do Guará-DF.
