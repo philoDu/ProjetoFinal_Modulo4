@@ -7,6 +7,7 @@ const usuariosIniciais = [
   { id: 'u1', nome: 'Ana Souza', email: 'ana@exemplo.com', senha: '123456' },
   { id: 'u2', nome: 'Bruno Lima', email: 'bruno@exemplo.com', senha: '123456' },
   { id: 'u3', nome: 'Carla Dias', email: 'carla@exemplo.com', senha: '123456' },
+  { id: 'u4', nome: 'Alexandre', email: 'alexandre@exemplo.com', senha: '123456' },
 ]
 
 export const useAuthStore = defineStore('auth', () => {

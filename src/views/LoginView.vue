@@ -80,7 +80,7 @@ function entrar() {
     </p>
 
     <p class="mt-6 rounded-lg bg-slate-100 p-3 text-xs text-slate-600">
-      <strong>Conta de teste:</strong> ana@exemplo.com · senha 123456
+      <strong>Conta de teste:</strong> alexandre@exemplo.com · senha 123456
     </p>
   </AuthLayout>
 </template>
