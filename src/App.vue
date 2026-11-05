@@ -1,13 +1,23 @@
-<script setup></script>
+<script setup>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import AppHeader from '@/components/AppHeader.vue'
+
+const route = useRoute()
+const mostrarHeader = computed(() => !route.meta.publica)
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold text-blue-700" >You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="min-h-dvh bg-slate-50 text-slate-900">
+    <a
+      href="#conteudo"
+      class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-20 focus:rounded-md focus:bg-white focus:px-4 focus:py-2 focus:shadow"
+    >
+      Pular para o conteúdo
+    </a>
+    <AppHeader v-if="mostrarHeader" />
+    <main id="conteudo">
+      <RouterView />
+    </main>
+  </div>
 </template>
-
-<style scoped>
-
-</style>
